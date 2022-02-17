@@ -1,0 +1,649 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5750022F24B6787200E96E7E /* explosion sound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5750022E24B6787100E96E7E /* explosion sound.wav */; };
+		5750027324B6C4C300E96E7E /* 04B_19__.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 5750027224B6C4C300E96E7E /* 04B_19__.TTF */; };
+		57BE762324B136DD00218DFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BE762224B136DD00218DFA /* AppDelegate.swift */; };
+		57BE762524B136DD00218DFA /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 57BE762424B136DD00218DFA /* GameScene.sks */; };
+		57BE762724B136DD00218DFA /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 57BE762624B136DD00218DFA /* Actions.sks */; };
+		57BE762924B136DD00218DFA /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BE762824B136DD00218DFA /* GameScene.swift */; };
+		57BE762B24B136DD00218DFA /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BE762A24B136DD00218DFA /* GameViewController.swift */; };
+		57BE762E24B136DD00218DFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57BE762C24B136DD00218DFA /* Main.storyboard */; };
+		57BE763024B136DF00218DFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57BE762F24B136DF00218DFA /* Assets.xcassets */; };
+		57BE763324B136DF00218DFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57BE763124B136DF00218DFA /* LaunchScreen.storyboard */; };
+		57BE763E24B136DF00218DFA /* Bannana_Split_GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BE763D24B136DF00218DFA /* Bannana_Split_GameTests.swift */; };
+		57BE764924B136DF00218DFA /* Bannana_Split_GameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BE764824B136DF00218DFA /* Bannana_Split_GameUITests.swift */; };
+		57BE765724B1435100218DFA /* BMMovingGround.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BE765624B1435100218DFA /* BMMovingGround.swift */; };
+		57BE765924B17B8900218DFA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BE765824B17B8900218DFA /* Constants.swift */; };
+		57BE765D24B19D7F00218DFA /* MLHero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BE765C24B19D7F00218DFA /* MLHero.swift */; };
+		57BE766124B2CBE400218DFA /* tony.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 57BE766024B2CBE400218DFA /* tony.atlas */; };
+		57BE766324B2D96D00218DFA /* BMWallGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BE766224B2D96D00218DFA /* BMWallGenerator.swift */; };
+		57BE766524B2D9B800218DFA /* MLWall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BE766424B2D9B800218DFA /* MLWall.swift */; };
+		57DD0EDF24BCC21800588159 /* Jazz.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 57DD0EDE24BCC21800588159 /* Jazz.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		57BE763A24B136DF00218DFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57BE761724B136DD00218DFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57BE761E24B136DD00218DFA;
+			remoteInfo = "Bannana Split Game";
+		};
+		57BE764524B136DF00218DFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57BE761724B136DD00218DFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57BE761E24B136DD00218DFA;
+			remoteInfo = "Bannana Split Game";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5750022E24B6787100E96E7E /* explosion sound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "explosion sound.wav"; sourceTree = "<group>"; };
+		5750027224B6C4C300E96E7E /* 04B_19__.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; name = 04B_19__.TTF; path = "../../ninja sprite game/04b_19/04B_19__.TTF"; sourceTree = "<group>"; };
+		57BE761F24B136DD00218DFA /* Bannana Split Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bannana Split Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57BE762224B136DD00218DFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		57BE762424B136DD00218DFA /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		57BE762624B136DD00218DFA /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		57BE762824B136DD00218DFA /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		57BE762A24B136DD00218DFA /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		57BE762D24B136DD00218DFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		57BE762F24B136DF00218DFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		57BE763224B136DF00218DFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		57BE763424B136DF00218DFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57BE763924B136DF00218DFA /* Bannana Split GameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bannana Split GameTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57BE763D24B136DF00218DFA /* Bannana_Split_GameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bannana_Split_GameTests.swift; sourceTree = "<group>"; };
+		57BE763F24B136DF00218DFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57BE764424B136DF00218DFA /* Bannana Split GameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bannana Split GameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57BE764824B136DF00218DFA /* Bannana_Split_GameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bannana_Split_GameUITests.swift; sourceTree = "<group>"; };
+		57BE764A24B136DF00218DFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57BE765624B1435100218DFA /* BMMovingGround.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMMovingGround.swift; sourceTree = "<group>"; };
+		57BE765824B17B8900218DFA /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		57BE765C24B19D7F00218DFA /* MLHero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLHero.swift; sourceTree = "<group>"; };
+		57BE766024B2CBE400218DFA /* tony.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = tony.atlas; sourceTree = "<group>"; };
+		57BE766224B2D96D00218DFA /* BMWallGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMWallGenerator.swift; sourceTree = "<group>"; };
+		57BE766424B2D9B800218DFA /* MLWall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLWall.swift; sourceTree = "<group>"; };
+		57DD0EDE24BCC21800588159 /* Jazz.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Jazz.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57BE761C24B136DD00218DFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57BE763624B136DF00218DFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57BE764124B136DF00218DFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57BE761624B136DD00218DFA = {
+			isa = PBXGroup;
+			children = (
+				57BE762124B136DD00218DFA /* Bannana Split Game */,
+				57BE763C24B136DF00218DFA /* Bannana Split GameTests */,
+				57BE764724B136DF00218DFA /* Bannana Split GameUITests */,
+				57BE762024B136DD00218DFA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		57BE762024B136DD00218DFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57BE761F24B136DD00218DFA /* Bannana Split Game.app */,
+				57BE763924B136DF00218DFA /* Bannana Split GameTests.xctest */,
+				57BE764424B136DF00218DFA /* Bannana Split GameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57BE762124B136DD00218DFA /* Bannana Split Game */ = {
+			isa = PBXGroup;
+			children = (
+				57BE766024B2CBE400218DFA /* tony.atlas */,
+				57BE762224B136DD00218DFA /* AppDelegate.swift */,
+				5750022E24B6787100E96E7E /* explosion sound.wav */,
+				57BE762424B136DD00218DFA /* GameScene.sks */,
+				5750027224B6C4C300E96E7E /* 04B_19__.TTF */,
+				57BE762624B136DD00218DFA /* Actions.sks */,
+				57DD0EDE24BCC21800588159 /* Jazz.mp3 */,
+				57BE762824B136DD00218DFA /* GameScene.swift */,
+				57BE766624B2D9D200218DFA /* Wall Generation */,
+				57BE765C24B19D7F00218DFA /* MLHero.swift */,
+				57BE765624B1435100218DFA /* BMMovingGround.swift */,
+				57BE765824B17B8900218DFA /* Constants.swift */,
+				57BE762A24B136DD00218DFA /* GameViewController.swift */,
+				57BE762C24B136DD00218DFA /* Main.storyboard */,
+				57BE762F24B136DF00218DFA /* Assets.xcassets */,
+				57BE763124B136DF00218DFA /* LaunchScreen.storyboard */,
+				57BE763424B136DF00218DFA /* Info.plist */,
+			);
+			path = "Bannana Split Game";
+			sourceTree = "<group>";
+		};
+		57BE763C24B136DF00218DFA /* Bannana Split GameTests */ = {
+			isa = PBXGroup;
+			children = (
+				57BE763D24B136DF00218DFA /* Bannana_Split_GameTests.swift */,
+				57BE763F24B136DF00218DFA /* Info.plist */,
+			);
+			path = "Bannana Split GameTests";
+			sourceTree = "<group>";
+		};
+		57BE764724B136DF00218DFA /* Bannana Split GameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				57BE764824B136DF00218DFA /* Bannana_Split_GameUITests.swift */,
+				57BE764A24B136DF00218DFA /* Info.plist */,
+			);
+			path = "Bannana Split GameUITests";
+			sourceTree = "<group>";
+		};
+		57BE766624B2D9D200218DFA /* Wall Generation */ = {
+			isa = PBXGroup;
+			children = (
+				57BE766224B2D96D00218DFA /* BMWallGenerator.swift */,
+				57BE766424B2D9B800218DFA /* MLWall.swift */,
+			);
+			path = "Wall Generation";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57BE761E24B136DD00218DFA /* Bannana Split Game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57BE764D24B136DF00218DFA /* Build configuration list for PBXNativeTarget "Bannana Split Game" */;
+			buildPhases = (
+				57BE761B24B136DD00218DFA /* Sources */,
+				57BE761C24B136DD00218DFA /* Frameworks */,
+				57BE761D24B136DD00218DFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bannana Split Game";
+			productName = "Bannana Split Game";
+			productReference = 57BE761F24B136DD00218DFA /* Bannana Split Game.app */;
+			productType = "com.apple.product-type.application";
+		};
+		57BE763824B136DF00218DFA /* Bannana Split GameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57BE765024B136DF00218DFA /* Build configuration list for PBXNativeTarget "Bannana Split GameTests" */;
+			buildPhases = (
+				57BE763524B136DF00218DFA /* Sources */,
+				57BE763624B136DF00218DFA /* Frameworks */,
+				57BE763724B136DF00218DFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57BE763B24B136DF00218DFA /* PBXTargetDependency */,
+			);
+			name = "Bannana Split GameTests";
+			productName = "Bannana Split GameTests";
+			productReference = 57BE763924B136DF00218DFA /* Bannana Split GameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		57BE764324B136DF00218DFA /* Bannana Split GameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57BE765324B136DF00218DFA /* Build configuration list for PBXNativeTarget "Bannana Split GameUITests" */;
+			buildPhases = (
+				57BE764024B136DF00218DFA /* Sources */,
+				57BE764124B136DF00218DFA /* Frameworks */,
+				57BE764224B136DF00218DFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57BE764624B136DF00218DFA /* PBXTargetDependency */,
+			);
+			name = "Bannana Split GameUITests";
+			productName = "Bannana Split GameUITests";
+			productReference = 57BE764424B136DF00218DFA /* Bannana Split GameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57BE761724B136DD00218DFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Bryan Tineo Ccasani";
+				TargetAttributes = {
+					57BE761E24B136DD00218DFA = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					57BE763824B136DF00218DFA = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 57BE761E24B136DD00218DFA;
+					};
+					57BE764324B136DF00218DFA = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 57BE761E24B136DD00218DFA;
+					};
+				};
+			};
+			buildConfigurationList = 57BE761A24B136DD00218DFA /* Build configuration list for PBXProject "Bannana Split Game" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 57BE761624B136DD00218DFA;
+			productRefGroup = 57BE762024B136DD00218DFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57BE761E24B136DD00218DFA /* Bannana Split Game */,
+				57BE763824B136DF00218DFA /* Bannana Split GameTests */,
+				57BE764324B136DF00218DFA /* Bannana Split GameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57BE761D24B136DD00218DFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57DD0EDF24BCC21800588159 /* Jazz.mp3 in Resources */,
+				5750022F24B6787200E96E7E /* explosion sound.wav in Resources */,
+				57BE762E24B136DD00218DFA /* Main.storyboard in Resources */,
+				57BE762524B136DD00218DFA /* GameScene.sks in Resources */,
+				57BE763024B136DF00218DFA /* Assets.xcassets in Resources */,
+				57BE763324B136DF00218DFA /* LaunchScreen.storyboard in Resources */,
+				5750027324B6C4C300E96E7E /* 04B_19__.TTF in Resources */,
+				57BE762724B136DD00218DFA /* Actions.sks in Resources */,
+				57BE766124B2CBE400218DFA /* tony.atlas in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57BE763724B136DF00218DFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57BE764224B136DF00218DFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57BE761B24B136DD00218DFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57BE766524B2D9B800218DFA /* MLWall.swift in Sources */,
+				57BE765924B17B8900218DFA /* Constants.swift in Sources */,
+				57BE762924B136DD00218DFA /* GameScene.swift in Sources */,
+				57BE765724B1435100218DFA /* BMMovingGround.swift in Sources */,
+				57BE766324B2D96D00218DFA /* BMWallGenerator.swift in Sources */,
+				57BE762B24B136DD00218DFA /* GameViewController.swift in Sources */,
+				57BE765D24B19D7F00218DFA /* MLHero.swift in Sources */,
+				57BE762324B136DD00218DFA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57BE763524B136DF00218DFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57BE763E24B136DF00218DFA /* Bannana_Split_GameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57BE764024B136DF00218DFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57BE764924B136DF00218DFA /* Bannana_Split_GameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		57BE763B24B136DF00218DFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57BE761E24B136DD00218DFA /* Bannana Split Game */;
+			targetProxy = 57BE763A24B136DF00218DFA /* PBXContainerItemProxy */;
+		};
+		57BE764624B136DF00218DFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57BE761E24B136DD00218DFA /* Bannana Split Game */;
+			targetProxy = 57BE764524B136DF00218DFA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		57BE762C24B136DD00218DFA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57BE762D24B136DD00218DFA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		57BE763124B136DF00218DFA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57BE763224B136DF00218DFA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		57BE764B24B136DF00218DFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		57BE764C24B136DF00218DFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57BE764E24B136DF00218DFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LDL342CT32;
+				INFOPLIST_FILE = "Bannana Split Game/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.4;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bryanmax9.Bannana-Split-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		57BE764F24B136DF00218DFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LDL342CT32;
+				INFOPLIST_FILE = "Bannana Split Game/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.4;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bryanmax9.Bannana-Split-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		57BE765124B136DF00218DFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LDL342CT32;
+				INFOPLIST_FILE = "Bannana Split GameTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bryanmax9.Bannana-Split-GameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bannana Split Game.app/Bannana Split Game";
+			};
+			name = Debug;
+		};
+		57BE765224B136DF00218DFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LDL342CT32;
+				INFOPLIST_FILE = "Bannana Split GameTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bryanmax9.Bannana-Split-GameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bannana Split Game.app/Bannana Split Game";
+			};
+			name = Release;
+		};
+		57BE765424B136DF00218DFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LDL342CT32;
+				INFOPLIST_FILE = "Bannana Split GameUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bryanmax9.Bannana-Split-GameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Bannana Split Game";
+			};
+			name = Debug;
+		};
+		57BE765524B136DF00218DFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LDL342CT32;
+				INFOPLIST_FILE = "Bannana Split GameUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bryanmax9.Bannana-Split-GameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Bannana Split Game";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57BE761A24B136DD00218DFA /* Build configuration list for PBXProject "Bannana Split Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57BE764B24B136DF00218DFA /* Debug */,
+				57BE764C24B136DF00218DFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57BE764D24B136DF00218DFA /* Build configuration list for PBXNativeTarget "Bannana Split Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57BE764E24B136DF00218DFA /* Debug */,
+				57BE764F24B136DF00218DFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57BE765024B136DF00218DFA /* Build configuration list for PBXNativeTarget "Bannana Split GameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57BE765124B136DF00218DFA /* Debug */,
+				57BE765224B136DF00218DFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57BE765324B136DF00218DFA /* Build configuration list for PBXNativeTarget "Bannana Split GameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57BE765424B136DF00218DFA /* Debug */,
+				57BE765524B136DF00218DFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57BE761724B136DD00218DFA /* Project object */;
+}
